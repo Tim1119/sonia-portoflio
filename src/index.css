@@ -18,7 +18,7 @@
       @apply text-lemon
     }
     .section-header{
-      @apply text-[34px] lg:text-[45px] capitalize uppercase font-bold text-black text-center mb-5 mt-2
+      @apply text-[34px] lg:text-[35px] xl:text-[45px] capitalize  font-bold text-black text-center mb-5 mt-2
     }
     .contact-box{
       @apply px-2 py-4  border bg-[#F8F8F8] shadow-sm space-x-4 space-y-2

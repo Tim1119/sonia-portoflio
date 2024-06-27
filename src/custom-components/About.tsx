@@ -7,13 +7,13 @@ export default function About () {
    
  
   return (
-    <div className="font-[nunito] pt-5 grid place-items-center w-full min-h-[70vh] bg-white overflow-hidden" >
+    <div className="font-[nunito] pt-5 grid place-items-center w-full min-h-[60vh] bg-white overflow-hidden" >
     <div className='container grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-4 h-full ' data-aos="fade-up">
 
-    <div className='h-full grid place-items-center bg-red-400' data-aos="fade-up" data-aos-delay="200"> 
-        <div className='flex flex-col justify-center gap-4 bg-yellow-400 h-full' >
+    <div className='h-full grid place-items-center' data-aos="fade-up" data-aos-delay="200"> 
+        <div className='flex flex-col justify-center gap-4 h-full' >
             <div>
-                <h3 className='section-header text-left mt-7 mb-1 text-[calc(1.325rem_+_.9vw)] uppercase' data-aos="fade-up" >Who we are</h3> 
+                <h3 className='section-header text-left mt-7 mb-1 ' data-aos="fade-up" >About Us</h3> 
             </div>
             <div data-aos="fade-up" data-aos-delay="400" >
                 <div className='text-base lg:text-base font-light font-[nunito] text-justify leading-[32px] lg:leading-8 line-clamp-[10]'  >
@@ -22,7 +22,10 @@ export default function About () {
                     </p>
                 </div>
             </div>
+            <div className='flex justify-center lg:justify-start' >
+
             <Button size={"lg"} className="my-3 group flex w-fit bg-lemon hover:bg-lemon gap-3 px-10 text-base py-4 tracking-wider mt-7" >Read More <FaArrowRightLong className="group-hover:animate-pulse transition-all" /> </Button>
+            </div>
 
         </div>
     </div>

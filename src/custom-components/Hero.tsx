@@ -15,7 +15,7 @@ const Hero = () => {
                 <p className='text-lg xl:text-xl text-white font-semibold ' data-aos="fade-up" data-aos-delay="400" >
                     Your virtual assitant offering seamless support for acheiving executive success
                 </p>
-                <div className="w-full flex justify-center xl:justify-start">
+                <div className="w-full flex justify-center lg:justify-start">
 
                 <Button size={"lg"} className="flex w-fit bg-lemon hover:bg-lemon gap-3 px-10 text-base py-4 tracking-wider mt-7" >Get Started <FaArrowRightLong className="group-hover:animate-pulse transition-all " /> </Button>
                 </div>
