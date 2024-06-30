@@ -11,10 +11,10 @@ import Footer from "./custom-components/Footer";
 
 function App() {
   return (
-    <div className="w-full  ">
+    <div className="w-full">
       <Router>
         <Navbar />
-        <div className="w-full bg-green-400" style={{ minHeight: "80vh", marginTop: "80px", marginLeft:'0px',padding:'0px' }}>
+        <div className="w-full" style={{ minHeight: "80vh", marginTop: "80px", marginLeft:'0px',padding:'0px' }}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />

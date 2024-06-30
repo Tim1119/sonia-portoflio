@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
+ */
 
 @tailwind base;
 @tailwind components;
@@ -13,12 +14,16 @@
     body {
       @apply font-[nunito];
     }
+   
 
     .active-link{
       @apply text-lemon
     }
-    .section-header{
+    /* .section-header{
       @apply text-[34px] lg:text-[35px] xl:text-[45px] capitalize  font-bold text-black text-center mb-5 mt-2
+    } */
+    .section-header{
+      @apply text-[28px] lg:text-[33px] capitalize font-bold text-black text-center mb-5 mt-2
     }
     .contact-box{
       @apply px-2 py-4  border bg-[#F8F8F8] shadow-sm space-x-4 space-y-2
