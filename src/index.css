@@ -22,6 +22,9 @@
     /* .section-header{
       @apply text-[34px] lg:text-[35px] xl:text-[45px] capitalize  font-bold text-black text-center mb-5 mt-2
     } */
+    .containerize{
+      @apply container max-w-7xl mx-auto
+    }
     .section-header{
       @apply text-[28px] lg:text-[33px] capitalize font-bold text-black text-center mb-5 mt-2
     }
@@ -31,6 +34,9 @@
     .useful-link{
       @apply flex items-center gap-2
       
+    }
+    .form-control{
+      @apply bg-white font-light font-[nunito] mt-[2px] border border-[#ced4da] focus:outline-none focus:border-lemon text-sm rounded-[4px] w-full py-[10px] px-3;
     }
 
 }

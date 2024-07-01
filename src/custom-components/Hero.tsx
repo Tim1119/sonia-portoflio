@@ -7,7 +7,7 @@ import { Button } from '../components/ui/button';
 const Hero = () => {
   return (
     <div className="font-[nunito] w-full mt-[80px] h-[calc(100vh_-_80px)]  min-h-fit bg-black  grid place-items-center" >
-        <div className='container grid grid-cols-1 lg:grid-cols-2 gap-4 h-full  w-full'>
+        <div className='containerize grid grid-cols-1 lg:grid-cols-2 gap-4 h-full '>
 
         <div className='grid place-items-center md:justify-items-start' >
             <div className='gap-5 lg:text-left text-center  h-full xl:h-fit flex flex-col justify-center w-full'  >

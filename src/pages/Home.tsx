@@ -4,6 +4,7 @@ import About from '../custom-components/About'
 import Services from '../custom-components/Services'
 import Portfolio from '../custom-components/Portfolio'
 import Testimonials from '../custom-components/Testimonials'
+import ContactUs from '../custom-components/ContactUs'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Services />
       <Portfolio />
       <Testimonials />
+      <ContactUs />
     </div>
   )
 }

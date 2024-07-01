@@ -28,8 +28,8 @@ const Testimonials = () => {
 
     return (
         <div className="w-full my-6 py-5 font-serif">
-            <div className="container mx-auto px-4">
-                <h3 className="section-header text-center mb-8">Testimonials</h3>
+            <div className="containerize mx-auto px-4">
+                <h3 className="section-header font-[nunito] text-center mb-8">Testimonials</h3>
                 <Slider {...settings}>
                     <TestimonialCard
                         key={Math.random()}

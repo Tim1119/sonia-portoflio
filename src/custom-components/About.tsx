@@ -8,7 +8,7 @@ export default function About () {
  
   return (
     <div className="font-[nunito] pt-5 grid place-items-center w-full min-h-[70vh] bg-white overflow-hidden" >
-    <div className='container grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-4 h-full ' data-aos="fade-up">
+    <div className='xl:containerize grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-4 h-full ' data-aos="fade-up">
 
     <div className='h-full grid place-items-center' data-aos="fade-up" data-aos-delay="200"> 
         <div className='flex flex-col justify-center gap-4 h-full' >

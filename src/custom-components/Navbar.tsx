@@ -34,7 +34,7 @@ const Navbar = () => {
 
       {/* Desktop Mobile */}
       <header className={`font-nunito  bg-black h-[80px] w-full z-10 ease-in-out duration-300  ${navbarShadow ? "shadow-xl" : "shadow-none"} fixed top-0`  } >
-        <nav className="flex items-center justify-between h-full container" >
+        <nav className="flex items-center justify-between h-full container max-w-7xl mx-auto" >
           {/* Logo */}
             <div>
             <img src="/logo.jpeg" className='h-[33px] w-full' width={140} height={50} alt="logo" />

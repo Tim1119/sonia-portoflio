@@ -38,7 +38,7 @@ export const theme = {
     fontFamily: {
       fontFamily: {
         nunito: ['Nunito', 'serif'],
-        merriweather: ['Merriweather', 'serif'],
+        merriweather: ["Merriweather", 'serif'],
         sans: ['Open Sans', 'sans-serif'],
         script: ['Nanum Pen Script', 'serif'],
         vujahday: ['Vujahday Script', 'serif'],

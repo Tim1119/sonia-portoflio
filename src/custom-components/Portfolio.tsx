@@ -27,15 +27,11 @@ const Portfolio = () => {
       };
 
   return (
-    <div className="w-full py-5  font-serif grid place-items-center min-h-fit bg-[#F0F5E7]" >
-    <div className='container  overflow-x-hidden mx-auto w-full min-h-fit h-[80vh]' >
-        <div className='my-8' >
-
-        <h3 className='section-header font-[merriweather] my-7' >Portfolio</h3>
-        </div>
-        <div>
-          {/* {isError && <Error message="An error occured when fetching portfolio" />} */}
-        </div>
+    <div className="w-full my-6 py-5 font-serif bg-[#F0F5E7]" >
+    <div className='containerize mx-auto px-4' >
+      <div className='my-8' >
+        <h3 className='section-header font-[nunito] my-7' >Portfolio</h3>
+      </div>
         {/* {isLoading ? ( <CircleLoader />) : */}
       {/* ( */}
         <Slider {...settings}  className="mx-auto h-fit" >   
