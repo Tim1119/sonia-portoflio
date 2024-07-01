@@ -36,13 +36,13 @@ export const theme = {
       customOrange: "#F85A40",
     },
     fontFamily: {
-      fontFamily: {
+    
         nunito: ['Nunito', 'serif'],
         merriweather: ["Merriweather", 'serif'],
         sans: ['Open Sans', 'sans-serif'],
-        script: ['Nanum Pen Script', 'serif'],
+        script: ["Nanum Pen Script", 'cursive'],
         vujahday: ['Vujahday Script', 'serif'],
-      },
+     
     }
   },
 };
